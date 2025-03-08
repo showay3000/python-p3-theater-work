@@ -8,7 +8,7 @@ import os
 sys.path.append(os.getcwd())
 
 # Import your Base and models
-from your_script_name import Base  # Replace 'your_script_name' with the name of your Python file
+from lib.models import Base  # Replace 'your_script_name' with the name of your Python file
 
 # Alembic Config object, which provides access to the values within the .ini file
 config = context.config
