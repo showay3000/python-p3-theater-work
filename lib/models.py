@@ -41,7 +41,7 @@ class Role(Base):
         hired_auditions = [audition for audition in self.auditions if audition.hired]
         return hired_auditions[1] if len(hired_auditions) > 1 else "no understudy has been hired for this role."
 
-# Set up the database engine and create tables
+# Setup a database engine
 engine = create_engine("sqlite:///theater.db")
 Base.metadata.create_all(engine)
 
