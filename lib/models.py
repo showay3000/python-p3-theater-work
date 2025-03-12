@@ -52,7 +52,7 @@ session = Session()
 # Create a role and auditions
 role = Role(character_name="John Doe")
 
-audition1 = Audition(actor="Jane Smith", location="Kenya", phone="123-456-789", role=role)
+audition1 = Audition(actor="Mark Vog", location="Kenya", phone="123-456-789", role=role)
 audition2 = Audition(actor="Will Smith", location="Kenya", phone="987-654-321", role=role)
 
 # Add and commit to the session
